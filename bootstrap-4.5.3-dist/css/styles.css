@@ -36,6 +36,7 @@
 #Photo-section{
     margin:0px;
     height:100%;
+    width: 100%;
     background-image: url("../../img/p-bg-2.jpg");
     background-attachment: fixed;
     background-position: center;
