@@ -1,4 +1,4 @@
-document.onreadystatechange = function() { 
+/*document.onreadystatechange = function() { 
     if (document.readyState !== "complete") { 
         document.querySelector("body").style.visibility = "hidden"; 
         document.querySelector(".loader-wrapper").style.visibility = "visible";
@@ -8,4 +8,4 @@ document.onreadystatechange = function() {
         document.querySelector("body").style.visibility = "visible";
         console.log("Loaded"); 
     } 
-}; 
+}; */
