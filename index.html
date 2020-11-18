@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Madhur</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/styles.css"> 
+        <link rel="stylesheet" href="styles.css"> 
         
     </head>
     <body>
@@ -35,26 +35,26 @@
         </div>
         <div id="P-section-row" class="row">
         <div id="Macro-c" class="col-md-4 col-sm-6 ">
-            <div id="Macro-content" class="content-card">
-                <img id="cover-img" src="img/Macro/1.jpeg" class="img-fluid rounded-lg" alt="Responsive image">
+            <div id="Macro-content" class="content-card" onclick="redirect('macro')">
+                <img id="cover-img" src="img/Macro.jpg" class="img-fluid rounded-lg" alt="Responsive image">
                 <section id="card-title" class="rounded-lg text-center">Macro</section>
             </div>
         </div>
         <div id="abstract-c" class="col-md-4 col-sm-6 ">
-            <div id="Abstract-content" class="content-card">
-                <img id="cover-img" src="img/Macro/2.jpeg" class="img-fluid rounded-lg" alt="Responsive image">
+            <div id="Abstract-content" class="content-card" onclick="redirect('abstract')">
+                <img id="cover-img" src="img/Abstract.jpg" class="img-fluid rounded-lg" alt="Responsive image">
                 <section id="card-title" class="rounded-lg text-center">Abstract</section>
             </div>
         </div>
         <div id="Wildlife-c" class="col-md-4 col-sm-6 ">
-            <div id="Wildlife-content" class="content-card">
-                <img id="cover-img" src="img/Macro/2.jpeg" class="img-fluid wildlife rounded-lg" alt="Responsive image">
+            <div id="Wildlife-content" class="content-card" onclick="redirect('wildlife')">
+                <img id="cover-img" src="img/Wildlife.jpeg" class="img-fluid wildlife rounded-lg" alt="Responsive image">
                 <section id="card-title" class="rounded-lg text-center">Wildlife</section>
             </div>
         </div>
         <div id="Bnw-c" class="col-md-4 col-sm-6 ">
-            <div id="Bnw-content" class="content-card">
-                <img id="cover-img" src="img/Macro/2.jpeg" class="img-fluid rounded-lg" alt="Responsive image">
+            <div id="Bnw-content" class="content-card" onclick="redirect('bnw')">
+                <img id="cover-img" src="img/Bnw.jpeg" class="img-fluid rounded-lg" alt="Responsive image">
                 <section id="card-title" class="rounded-lg text-center">Black & White</section>
             </div>
         </div>
@@ -66,16 +66,20 @@
         <br>
         <div id="connect" class="container-fluid text-center">
             <h2 id="con-w-me">Connect with me</h2>
-            <br>
+            <hr>
             <div id="media">
-                <a href="https://www.linkedin.com/in/madhurpadavala/" target="_blank" >
+                <a href="https://www.linkedin.com/in/madhurpadavala/" target="_blank">
                 <img class="icons" src="img/linkedin.png">
                 </a>
-                <a href="https://www.instagram.com/madhur_7/" target="_blank" >
+                <a href="https://www.instagram.com/madhur_7/" target="_blank">
                     <img class="icons" src="img/ig.png">
                 </a>                
             </div>
         </div>
     </footer>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>     
+</body>
 </html>
