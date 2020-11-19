@@ -31,7 +31,7 @@
 
 #bio-text{
     padding: 2%; 
-    text-align: justify;   
+    text-align: center;   
     font-size: 150%;
 }
 
@@ -109,9 +109,7 @@ hr{
         margin:auto;
         padding: 5%;
     }
-    #bio-text{
-        padding: 2%; 
-        text-align: justify;   
+    #bio-text{  
         font-size: 95%;
     }
     #card-title{
