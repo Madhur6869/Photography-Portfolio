@@ -1,3 +1,6 @@
+body{
+    background-color: solid black;
+}
 .container-fluid{
     padding: 0px;
 }

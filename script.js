@@ -9,7 +9,7 @@
         document.querySelector(".loader").style.visibility = "hidden";
         console.log("Loaded"); 
     } 
-}) 
+})
 
 function redirect(name) {
     console.log(name);
