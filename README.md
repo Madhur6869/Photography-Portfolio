@@ -3,4 +3,5 @@ This is my first attempt at developing a website. Since this is my photography p
 ## Tech stack
 HTML |
 CSS |
-Javascript
+Javascript |
+Bootstrap
