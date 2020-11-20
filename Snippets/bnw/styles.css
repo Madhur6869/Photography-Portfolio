@@ -14,6 +14,7 @@
     padding: 1%;
     text-align: center;
     background-color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
 }
 .card-content{
     margin: auto;
@@ -32,25 +33,19 @@
 /********************Footer styles*******************************************/
 footer{
     background-color: black;
+    align-content: center;
+    margin: 0%;
 }
-#con-w-me{
-    margin: auto;
-    font-size: 200%;
-    color: white;
+.footer-text{
+margin: 0;
+padding: 1%;
+font-size: 200%;
+text-align: center;
+color: white;
+font-family: 'Electrolize', sans-serif;
 }
-.icons{
-    height: 5%;
-    width: 5%;
-    margin: 0 2% 2% 2%;
-}
-#media{
-    display: block;
-    margin: auto;
-}
-hr{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    color: white;
+.heart{
+    color: red;
 }
 /********************************576PX*********************************/
 @media(max-width:576px){
@@ -75,6 +70,9 @@ hr{
         font-size: 100%;
         color: white;
     }
+    .footer-text{
+        font-size: 130%;
+        }
 }
 
 /********************************768PX*********************************/
